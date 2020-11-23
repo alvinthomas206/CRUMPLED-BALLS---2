@@ -17,8 +17,8 @@ class ground
     display()
     {
         rectMode(CENTER);
-        fill("yellow");
-        stroke(0);
+        fill(100);
+        stroke(50);
 
         rect(this.groundObject.position.x,this.groundObject.position.y,this.width,this.height);
     }
